@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3f2fd">
+
+
+        <LinearLayout
+            android:id="@+id/post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20sp"
+            android:paddingBottom="40sp"
+            android:paddingRight="20sp"
+            android:paddingLeft="20sp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Select anyone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="4dp"
+                android:elevation="5sp"
+                android:background="#1565c0"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/english_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="20sp"
+                android:backgroundTint="#2196F3"
+                android:text="ইংরেজি"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/bangla_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="20sp"
+                android:backgroundTint="#2196F3"
+                android:text="বাংলা"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <Button
+                android:id="@+id/general_knowledge_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="20sp"
+                android:backgroundTint="#2196F3"
+                android:text="সাধারন জ্ঞান"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/math_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="20sp"
+                android:backgroundTint="#2196F3"
+                android:text="গণিত"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+</RelativeLayout>
